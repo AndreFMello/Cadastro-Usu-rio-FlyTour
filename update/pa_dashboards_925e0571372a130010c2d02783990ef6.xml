@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="pa_dashboards">
+    <pa_dashboards action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <breakdown_source/>
+        <group/>
+        <groups/>
+        <is_breakdown>false</is_breakdown>
+        <managed_breakdown/>
+        <managed_publisher/>
+        <name>Copy of Incident Management</name>
+        <no_tabs>false</no_tabs>
+        <order>100</order>
+        <owner display_value="Fabio Crismanis(OT Ordering)">c27f4f8f3716130010c2d02783990e32</owner>
+        <restrict_to_roles>pa_viewer,pa_contributor</restrict_to_roles>
+        <role_override>false</role_override>
+        <roles/>
+        <should_migrate_permissions>false</should_migrate_permissions>
+        <sys_class_name>pa_dashboards</sys_class_name>
+        <sys_created_by>fabio.crismanis</sys_created_by>
+        <sys_created_on>2018-06-07 21:13:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>925e0571372a130010c2d02783990ef6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Copy of Incident Management</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="FlyTour Cadastro de usuario" source="x_177883_flytour_c">cb39a92a379e930010c2d02783990e31</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FlyTour Cadastro de usuario">cb39a92a379e930010c2d02783990e31</sys_scope>
+        <sys_update_name>pa_dashboards_925e0571372a130010c2d02783990ef6</sys_update_name>
+        <sys_updated_by>fabio.crismanis</sys_updated_by>
+        <sys_updated_on>2018-06-07 21:13:39</sys_updated_on>
+        <users/>
+        <visible_to>2</visible_to>
+    </pa_dashboards>
+</record_update>

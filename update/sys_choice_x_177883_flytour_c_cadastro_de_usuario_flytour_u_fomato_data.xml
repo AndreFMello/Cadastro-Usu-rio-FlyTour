@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_fomato_data" table="x_177883_flytour_c_cadastro_de_usuario_flytour" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_fomato_data</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>javascript:"System (" + gs.getProperty('glide.sys.date_format') + ")"</label>
+            <language>en</language>
+            <name>x_177883_flytour_c_cadastro_de_usuario_flytour</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-29 14:31:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c4fb9d363752130010c2d02783990edf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-29 14:31:36</sys_updated_on>
+            <value>NULL_OVERRIDE</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_fomato_data</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>MM-dd-yyyy</label>
+            <language>en</language>
+            <name>x_177883_flytour_c_cadastro_de_usuario_flytour</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-29 14:30:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>21db1d363752130010c2d02783990e82</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-29 14:30:47</sys_updated_on>
+            <value>mm-dd-yyyy</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_fomato_data</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>dd/MM/yyyy</label>
+            <language>en</language>
+            <name>x_177883_flytour_c_cadastro_de_usuario_flytour</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-29 14:30:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>addb1d363752130010c2d02783990e83</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-29 14:30:47</sys_updated_on>
+            <value>dd/mm/yyyy</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_fomato_data</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>dd-MM-yyyy</label>
+            <language>en</language>
+            <name>x_177883_flytour_c_cadastro_de_usuario_flytour</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-29 14:30:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>69db1d363752130010c2d02783990e85</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-29 14:30:47</sys_updated_on>
+            <value>dd-mm-yyyy</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_fomato_data</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>dd.MM.yyyy</label>
+            <language>en</language>
+            <name>x_177883_flytour_c_cadastro_de_usuario_flytour</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-29 14:30:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>25db1d363752130010c2d02783990e87</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-29 14:30:47</sys_updated_on>
+            <value>dd.mm.yyyy</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_fomato_data</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>yyyy-MM-dd</label>
+            <language>en</language>
+            <name>x_177883_flytour_c_cadastro_de_usuario_flytour</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-29 14:30:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>eddb1d363752130010c2d02783990e88</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-29 14:30:47</sys_updated_on>
+            <value>yyyy-mm-dd</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_fomato_data</element>
+            <name>x_177883_flytour_c_cadastro_de_usuario_flytour</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-29 14:30:47</sys_created_on>
+            <sys_id>69db1d363752130010c2d02783990e83</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_fomato_data</sys_name>
+            <sys_package display_value="FlyTour Cadastro de usuario" source="x_177883_flytour_c">cb39a92a379e930010c2d02783990e31</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="FlyTour Cadastro de usuario">cb39a92a379e930010c2d02783990e31</sys_scope>
+            <sys_update_name>sys_choice_x_177883_flytour_c_cadastro_de_usuario_flytour_u_fomato_data</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-29 14:30:47</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

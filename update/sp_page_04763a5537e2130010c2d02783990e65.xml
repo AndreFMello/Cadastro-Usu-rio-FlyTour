@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_page">
+    <sp_page action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <css/>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <id>add_user_fly</id>
+        <internal>false</internal>
+        <public>false</public>
+        <roles/>
+        <short_description/>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>Fernando.ruffino</sys_created_by>
+        <sys_created_on>2018-06-06 15:31:27</sys_created_on>
+        <sys_id>04763a5537e2130010c2d02783990e65</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>add_user_fly</sys_name>
+        <sys_package display_value="FlyTour Cadastro de usuario" source="x_177883_flytour_c">cb39a92a379e930010c2d02783990e31</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FlyTour Cadastro de usuario">cb39a92a379e930010c2d02783990e31</sys_scope>
+        <sys_update_name>sp_page_04763a5537e2130010c2d02783990e65</sys_update_name>
+        <sys_updated_by>Fernando.ruffino</sys_updated_by>
+        <sys_updated_on>2018-06-06 15:31:27</sys_updated_on>
+        <title>add_user_fly</title>
+    </sp_page>
+    <sys_translated_text action="delete_multiple" query="documentkey=04763a5537e2130010c2d02783990e65"/>
+</record_update>

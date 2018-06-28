@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_template">
+    <sys_template action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <global>false</global>
+        <group/>
+        <link_element/>
+        <name>Fly User</name>
+        <next/>
+        <next_child/>
+        <roles/>
+        <short_description/>
+        <show_on_template_bar>true</show_on_template_bar>
+        <stand_alone>false</stand_alone>
+        <sys_class_name>sys_template</sys_class_name>
+        <sys_created_by>Fernando.ruffino</sys_created_by>
+        <sys_created_on>2018-06-14 16:51:56</sys_created_on>
+        <sys_id>c4751c8c377a930010c2d02783990e00</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Fly User</sys_name>
+        <sys_package display_value="FlyTour Cadastro de usuario" source="x_177883_flytour_c">cb39a92a379e930010c2d02783990e31</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FlyTour Cadastro de usuario">cb39a92a379e930010c2d02783990e31</sys_scope>
+        <sys_update_name>sys_template_c4751c8c377a930010c2d02783990e00</sys_update_name>
+        <sys_updated_by>Fernando.ruffino</sys_updated_by>
+        <sys_updated_on>2018-06-14 16:51:56</sys_updated_on>
+        <table>x_177883_flytour_c_cadastro_de_usuario_flytour</table>
+        <template/>
+        <user/>
+        <view/>
+    </sys_template>
+</record_update>

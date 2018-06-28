@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-06 16:22:31</sys_created_on>
+        <sys_id>c91287113726130010c2d02783990e57</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_177883_flytour_c_cadastro_de_usuario_flytour.x_177883_flytour_c.cad_user_fly</sys_name>
+        <sys_package display_value="FlyTour Cadastro de usuario" source="x_177883_flytour_c">cb39a92a379e930010c2d02783990e31</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FlyTour Cadastro de usuario">cb39a92a379e930010c2d02783990e31</sys_scope>
+        <sys_security_acl display_value="x_177883_flytour_c_cadastro_de_usuario_flytour">2e7c7e9937e2130010c2d02783990eb2</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_c91287113726130010c2d02783990e57</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-06 16:22:31</sys_updated_on>
+        <sys_user_role display_value="x_177883_flytour_c.cad_user_fly" name="x_177883_flytour_c.cad_user_fly">38314b113726130010c2d02783990ebe</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sc_cat_item_app_user">
+    <sc_cat_item_app_user action="INSERT_OR_UPDATE">
+        <approver display_value="Ordering AMADEUS">c63a7e1937e2130010c2d02783990e2c</approver>
+        <sc_cat_item display_value="Cadastrar Novo Usuário-FlyTour">d08d372737ee530010c2d02783990e21</sc_cat_item>
+        <sys_class_name>sc_cat_item_app_user</sys_class_name>
+        <sys_created_by>Fernando.ruffino</sys_created_by>
+        <sys_created_on>2018-06-14 19:26:55</sys_created_on>
+        <sys_id>0b09b8c837fa930010c2d02783990e17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cadastrar Novo Usuário-FlyTour.Ordering AMADEUS</sys_name>
+        <sys_package display_value="FlyTour Cadastro de usuario" source="x_177883_flytour_c">cb39a92a379e930010c2d02783990e31</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FlyTour Cadastro de usuario">cb39a92a379e930010c2d02783990e31</sys_scope>
+        <sys_update_name>sc_cat_item_app_user_0b09b8c837fa930010c2d02783990e17</sys_update_name>
+        <sys_updated_by>Fernando.ruffino</sys_updated_by>
+        <sys_updated_on>2018-06-14 19:26:55</sys_updated_on>
+    </sc_cat_item_app_user>
+</record_update>

@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function($scope) {
+  var c = this;
+	
+	$scope.add_user = function(usuario){
+		c.data.office_id = usuario.nome.substring(0,1).toUpperCase() + usuario.sobrenome.substring(0,1).toUpperCase() + usuario.cpf.substring(0,4);
+		c.data.nome = usuario.nome;
+		c.data.sobrenome = usuario.sobrenome;
+		c.data.email = usuario.email;
+		//c.data.resetar_senha = usuario.resetar_senha;
+		//c.data.bloqueado = usuario.bloqueado;
+		c.data.ativo = usuario.ativo;
+		c.data.possui_permissao_emissao = usuario.possui_permissao_emissao;
+		c.data.permite_alterar_perfis = usuario.permite_alterar_perfis;
+		c.data.permite_deletar_perfis = usuario.permite_deletar_perfis;
+		c.data.adm_productivity_suite = usuario.adm_productivity_suite;
+		c.data.assinatura_selling_platform = usuario.assinatura_selling_platform;
+		c.data.duty_code = usuario.duty_code;
+		c.data.remover_criptografia_cartao_credito = usuario.remover_criptografia_cartao_credito;
+		c.data.permite_transferencia_pnr = usuario.permite_transferencia_pnr;
+		c.data.assinatura_administrativa = usuario.assinatura_administrativa;
+		c.data.login = usuario.email;
+		c.data.cpf = usuario.cpf;
+		c.data.canal = usuario.canal;
+		//c.data.estado = usuario.estado;
+		//c.data.gerente = usuario.gerente;
+
+		c.server.update().then(function(response){
+			//alert(response.status);
+			window.location.href = "https://dev54052.service-now.com/sp/?id=fly_index";
+		});
+	}
+	
+	$scope.go_back = function(){
+		window.location.href = "https://dev54052.service-now.com/sp/?id=fly_index";
+	}
+	
+	$scope.add_and_continue_user = function(usuario){
+		c.data.office_id = usuario.nome.substring(0,1).toUpperCase() + usuario.sobrenome.substring(0,1).toUpperCase() + usuario.cpf.substring(0,4);
+		c.data.nome = usuario.nome;
+		c.data.sobrenome = usuario.sobrenome;
+		c.data.email = usuario.email;
+		c.data.ativo = usuario.ativo;
+		c.data.possui_permissao_emissao = usuario.possui_permissao_emissao;
+		c.data.permite_alterar_perfis = usuario.permite_alterar_perfis;
+		c.data.permite_deletar_perfis = usuario.permite_deletar_perfis;
+		c.data.adm_productivity_suite = usuario.adm_productivity_suite;
+		c.data.assinatura_selling_platform = usuario.assinatura_selling_platform;
+		c.data.duty_code = usuario.duty_code;
+		c.data.remover_criptografia_cartao_credito = usuario.remover_criptografia_cartao_credito;
+		c.data.permite_transferencia_pnr = usuario.permite_transferencia_pnr;
+		c.data.assinatura_administrativa = usuario.assinatura_administrativa;
+		c.data.login = usuario.email;
+		c.data.cpf = usuario.cpf;
+		c.data.canal = usuario.canal;
+
+		c.server.update().then(function(response){
+			$scope.usuario.office_id = "";
+			$scope.usuario.email = "";
+			$scope.usuario.nome = "";
+			$scope.usuario.sobrenome = "";
+			$scope.usuario.login = "";
+			$scope.usuario.cpf = "";
+			$scope.usuario.ativo = false;
+			$scope.usuario.permite_deletar_perfis = "";
+			$scope.usuario.assinatura_selling_platform = "";
+			$scope.usuario.duty_code = "";
+			$scope.usuario.permite_alterar_perfis = "";
+			$scope.usuario.possui_permissao_emissao = "";
+			$scope.usuario.adm_productivity_suite = "";
+			$scope.usuario.remover_criptografia_cartao_credito = "";
+			$scope.usuario.permite_transferencia_pnr = "";
+			$scope.usuario.assinatura_administrativa = "";
+			$scope.usuario.canal = "";
+		});
+	}
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>form_add_user_fly</id>
+        <internal>false</internal>
+        <link/>
+        <name>form_add_user_fly</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+	if (input != undefined && input.nome != null && input.nome != ""){
+		var newIncident = new GlideRecord('x_177883_flytour_c_cadastro_de_usuario_flytour');
+		newIncident.newRecord();
+		newIncident.u_office_name = input.office_id;
+		newIncident.u_nome = input.nome;
+		newIncident.u_sobrenome = input.sobrenome;
+		newIncident.u_email = input.email;		
+		newIncident.u_senha = "";
+		newIncident.u_cpf = input.cpf;
+		newIncident.active = input.ativo;
+		newIncident.u_gerente = "Ordering AMADEUS";
+		newIncident.u_estado_pedido = "novo";
+		newIncident.u_selling_platform = input.assinatura_selling_platform;
+		newIncident.u_duty_code = input.duty_code;
+		newIncident.u_produ_suite = input.adm_productivity_suite;
+		newIncident.u_transfer_pnr = input.permite_transferencia_pnr;
+		newIncident.u_emissao = input.possui_permissao_emissao;
+		newIncident.u_assinatura_admin = input.assinatura_administrativa;
+		newIncident.u_login_criado = input.login;
+		newIncident.u_cpm_cpn = input.permite_alterar_perfis;
+		newIncident.u_string_4 = input.permite_deletar_perfis;
+		newIncident.u_rem_crip_card = input.remover_criptografia_cartao_credito;
+		newIncident.u_campo = input.canal;
+		//newIncident.password_needs_reset = input.resetar_senha;
+		//newIncident.locked_out = input.bloqueado;
+		
+		newIncident.insert();
+		data.status = "Inserido com sucesso!";
+	}
+	else{
+		data.status = "Erro";
+	}
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>Fernando.ruffino</sys_created_by>
+        <sys_created_on>2018-06-06 15:29:14</sys_created_on>
+        <sys_id>63e5f61537e2130010c2d02783990e54</sys_id>
+        <sys_mod_count>175</sys_mod_count>
+        <sys_name>form_add_user_fly</sys_name>
+        <sys_package display_value="FlyTour Cadastro de usuario" source="x_177883_flytour_c">cb39a92a379e930010c2d02783990e31</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FlyTour Cadastro de usuario">cb39a92a379e930010c2d02783990e31</sys_scope>
+        <sys_update_name>sp_widget_63e5f61537e2130010c2d02783990e54</sys_update_name>
+        <sys_updated_by>Fernando.ruffino</sys_updated_by>
+        <sys_updated_on>2018-06-13 20:48:10</sys_updated_on>
+        <template><![CDATA[<div>
+  <form name="insertForm" style="margin-top: 5%;">
+    <input title="o padrão será: as 3 letras da sigla  que identificam a Unidade de Negócio seguidas dos 7 primeiros números do CPF do usuário" required disabled class="form-control" type="text" style="margin-right: 5%; width:45%; float: left; margin-bottom: 10px" placeholder="Login a ser criado *" maxlength="100" ng-model="usuario.email">
+    <input title="Informe o email completo. O usuário deve ter acesso a esse e-mail pois para ele serão enviados os dados do usuário criado" required class="form-control" type="text" style="margin-left: 5%; width:45%; float: left; margin-bottom: 10px" placeholder="Email *" maxlength="100" ng-model="usuario.email">
+    <input title="Informe o primeiro nome do usuário. Poderá ser seguidos dos sobrenomes intermediários, se desejável." required class="form-control" type="text" style="margin-right: 5%; width:45%; float: left; margin-bottom: 10px" placeholder="Nome *" maxlength="100" ng-model="usuario.nome">
+    <input title="Informe somente o último sobrenome do usuário" required class="form-control" type="text" style="margin-left: 5%; width:45%; float: left; margin-bottom: 10px" placeholder="Sobrenome *" maxlength="100" ng-model="usuario.sobrenome">
+    <input title="Digite o CPF do usuário" required class="form-control" type="text" style="margin-right: 5%; width:45%; float: left; margin-bottom: 10px" placeholder="CPF *" maxlength="25" ng-model="usuario.cpf">
+    <input class="form-control" type="text" style="margin-left: 5%; width:45%; float: left; margin-bottom: 10px; display: none" placeholder="Office ID principal *" maxlength="100" ng-model="usuario.office_id">
+    <div style="margin-left: 5%; width:45%; float: left; margin-bottom: 10px">
+      Canal * <select required style="float: right; width: 50%" ng-model="usuario.canal">
+      <option value="">-- Selecionar --</option>
+      <option value="fbt">FBT</option>
+      <option value="ftg">FTG</option>
+      <option value="ftv">FTV</option>
+      <option value="mmt">MMT</option>
+      <option value="ftf">FTF</option>
+      <option value="fte">FTE</option>
+      <option value="rede">Rede</option>
+      <option value="conexxe">Conexxe</option>
+      <option value="consolidada">Consolidada</option>
+      <option value="suporte">Suporte</option>
+      <option value="emergencial">Emergencial</option>
+      <option value="academia">Academia</option>
+     </select>
+    </div>
+    <div title="Marque SIM caso a assinatura possa excluir permanentemente perfis de passageiros e corporações." style="margin-left: 5%; width:45%; float: left; margin-bottom: 10px">
+      Permite deletar perfis? (CPX) * <select required style="float: right; width: 50%" ng-model="usuario.permite_deletar_perfis">
+      <option value="">-- Selecionar --</option>
+      <option value="sim">SIM</option>
+      <option value="não">NÃO</option>
+     </select>
+    </div>
+    <div title="Preencha caso o usuário já tenha uma assinatura do Selling Platform Classic. Caso não tenha, deixe em branco" style="margin-right: 5%; width:45%; float: left; margin-bottom: 10px">
+      Assinatura do Selling Platform * <select required style="float: right; width: 50%" ng-model="usuario.assinatura_selling_platform">
+      <option value="">-- Selecionar --</option>
+      <option value="sim">SIM</option>
+      <option value="não">NÃO</option>
+     </select>
+    </div>
+    <div title="Indicar se a pessoa terá assinatura com duty code AS ou SU" style="margin-left: 5%; width:45%; float: left; margin-bottom: 10px">
+      Duty Code * <select required style="float: right; width: 50%" ng-model="usuario.duty_code">
+      <option value="">-- Selecionar --</option>
+      <option value="as">AS</option>
+      <option value="su">SU</option>
+     </select>
+    </div>
+    <div title="Marque SIM caso a assinatura possa alterar e renomear perfis de passageiros e corporações." style="margin-right: 5%; width:45%; float: left; margin-bottom: 10px">
+      Permite alterar perfis? (CPM e CPN) * <select required style="float: right; width: 50%" ng-model="usuario.permite_alterar_perfis">
+      <option value="">-- Selecionar --</option>
+      <option value="sim">SIM</option>
+      <option value="não">NÃO</option>
+     </select>
+    </div>
+    <div title="Marque SIM caso o usuário possa fazer emissões de bilhetes no OID designado" style="margin-left: 5%; width:45%; float: left; margin-bottom: 10px">
+      Possui permissão para Emissão * <select required style="float: right; width: 50%" ng-model="usuario.possui_permissao_emissao">
+      <option value="">-- Selecionar --</option>
+      <option value="sim">SIM</option>
+      <option value="não">NÃO</option>
+     </select>
+    </div>
+    <div title="Permite criação de funcionalidades e regras dentro do sistema, como smartflows. Marque  SIM somente para usuários com assinatura SU" style="margin-right: 5%; width:45%; float: left; margin-bottom: 10px">
+      Administrador de Productivity Suite * <select required style="float: right; width: 50%" ng-model="usuario.adm_productivity_suite">
+      <option value="">-- Selecionar --</option>
+      <option value="sim">SIM</option>
+      <option value="não">NÃO</option>
+     </select>
+    </div>    
+    <div title="Marque SIM caso o usuário não possa visualizar no PNR os dados completos do cartão de crédito utilizado no pagamento do bilhete. Dados completos podem incluir: número do cartão, prazo de validade e dígito verificador. Marque NÃO caso os dados do cartão devam ser mascarados (omitidos) do PNR" style="margin-left: 5%; width:45%; float: left; margin-bottom: 10px">
+      Remover criptografia do cartão de crédito * <select required style="float: right; width: 50%" ng-model="usuario.remover_criptografia_cartao_credito">
+      <option value="">-- Selecionar --</option>
+      <option value="não">NÃO</option>
+      <option value="sim para perfis">SIM PARA PERFIS</option>
+      <option value="sim para pnrs">SIM PARA PNRS</option>
+      <option value="sim para perfis e pnrs">SIM PARA PERFIS E PNRS</option>
+     </select>
+    </div>
+    <div title="Marque SIM caso a assinatura possa transferir PNRs entre OIDs" style="margin-right: 5%; width:45%; float: left; margin-bottom: 10px">
+      Permite transferência de PNR * <select required style="float: right; width: 50%" ng-model="usuario.permite_transferencia_pnr">
+      <option value="">-- Selecionar --</option>
+      <option value="sim">SIM</option>
+      <option value="não">NÃO</option>
+     </select>
+    </div>
+    <div title="Assinaturas administrativas possuem permissão somente para visualizar PNRs" style="margin-left: 5%; width:45%; float: left; margin-bottom: 10px">
+      Assinatura administrativa * <select required style="float: right; width: 50%" ng-model="usuario.assinatura_administrativa">
+      <option value="">-- Selecionar --</option>
+      <option value="sim">SIM</option>
+      <option value="não">NÃO</option>
+     </select>
+    </div>
+    <div style="margin-right: 5%; width:45%; float: left; margin-bottom: 10px">
+      Ativo <input type="checkbox" style="float: right; width: 50%" ng-model="usuario.ativo"/>
+    </div> 
+    <input class="form-control" type="text" value="Ordering AMADEUS" disabled="true" style="display: none; margin-right: 5%; width:45%; float: left; margin-bottom: 10px" maxlength="25">
+    <button ng-disabled="insertForm.$invalid" class="btn btn-primary" type="submit" style="width: 15%; float:left; margin-left: 55%" name="add_continue" ng-click="add_and_continue_user(usuario)">Inserir e continuar</button>
+    <button ng-disabled="insertForm.$invalid" class="btn btn-primary" type="submit" style="width: 15%; float:right" name="add" ng-click="add_user(usuario)">Inserir e sair</button>
+  </form>
+</div>]]></template>
+    </sp_widget>
+</record_update>

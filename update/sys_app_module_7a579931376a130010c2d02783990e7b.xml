@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Cadastro de Usuario FlyTour">698a25aa379e930010c2d02783990ed2</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage display_value="PA Indicators">44beeea0c730030020508b3c5c9763eb</homepage>
+        <image/>
+        <link_type>DIRECT</link_type>
+        <map_page/>
+        <mobile_title>Relatórios</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>pa_dashboards_group</name>
+        <order>400</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query>https://dev54052.service-now.com/$pa_dashboard.do?sysparm_dashboard=80805df1372a130010c2d02783990ebb&amp;sysparm_tab=0fa0d9f1372a130010c2d02783990e07&amp;sysparm_cancelable=true&amp;sysparm_editable=false&amp;sysparm_active_panel=false</query>
+        <report/>
+        <roles>x_177883_flytour_c.cad_user_fly</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>fabio.crismanis</sys_created_by>
+        <sys_created_on>2018-06-07 21:55:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7a579931376a130010c2d02783990e7b</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Relatórios</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="FlyTour Cadastro de usuario" source="x_177883_flytour_c">cb39a92a379e930010c2d02783990e31</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FlyTour Cadastro de usuario">cb39a92a379e930010c2d02783990e31</sys_scope>
+        <sys_update_name>sys_app_module_7a579931376a130010c2d02783990e7b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-26 02:52:42</sys_updated_on>
+        <timeline_page/>
+        <title>Relatórios</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

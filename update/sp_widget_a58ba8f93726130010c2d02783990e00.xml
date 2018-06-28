@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function($scope) {
+  var c = this;
+	$scope.go_back = function(){
+		window.location.href = "https://dev54052.service-now.com/sp/?id=fly_index";
+	} 
+	
+	$scope.delete_user = function(office_id, email, login){
+		if (office_id != null && office_id != "" && email != null && email != "" && login != null && login != ""){
+			c.data.office_id = office_id;
+			c.data.email = email;
+			c.data.login = login;
+			c.server.update().then(function(response){
+				alert(response.status);
+			});
+		}
+	}
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>form_delete_user_fly</id>
+        <internal>false</internal>
+        <link/>
+        <name>form_delete_user_fly</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  if (input != undefined && input.office_id != null && input.office_id != ""){
+		var rec = new GlideRecord('x_177883_flytour_c_cadastro_de_usuario_flytour');
+		rec.addQuery('u_office_name', input.office_id);
+		rec.addQuery('u_email', input.email);
+		rec.addQuery('u_login_criado', input.login);
+		rec.query();
+		if (!rec.hasNext()){
+			data.status = "Os campos não batem com nenhum usuário cadastrado!";
+		}
+		while(rec.next()){
+			rec.u_estado_pedido = "excluir";
+			rec.update();
+			data.status = "Status alterado para usuário ser excluído!";
+		}		
+	}
+	else{
+		data.status = "Erro";
+	}
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>Fernando.ruffino</sys_created_by>
+        <sys_created_on>2018-06-07 18:41:30</sys_created_on>
+        <sys_id>a58ba8f93726130010c2d02783990e00</sys_id>
+        <sys_mod_count>42</sys_mod_count>
+        <sys_name>form_delete_user_fly</sys_name>
+        <sys_package display_value="FlyTour Cadastro de usuario" source="x_177883_flytour_c">cb39a92a379e930010c2d02783990e31</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FlyTour Cadastro de usuario">cb39a92a379e930010c2d02783990e31</sys_scope>
+        <sys_update_name>sp_widget_a58ba8f93726130010c2d02783990e00</sys_update_name>
+        <sys_updated_by>Fernando.ruffino</sys_updated_by>
+        <sys_updated_on>2018-06-08 17:24:32</sys_updated_on>
+        <template><![CDATA[<div>
+  <form name="deleteForm">
+    <input required class="form-control" type="text" style="width:50%; margin-bottom: 10px" placeholder="Office ID" maxlength="25" ng-model="office_id">
+	  <input required class="form-control" type="text" style="width:50%; margin-bottom: 10px" placeholder="E-mail" maxlength="25" ng-model="email">
+  	<input required class="form-control" type="text" style="width:50%; margin-bottom: 10px" placeholder="Login" maxlength="25" ng-model="login">
+  	<button ng-disabled="deleteForm.$invalid" class="btn btn-danger" type="submit" style="width:20%; margin-right:5%; float: left;" name="delete" ng-click="delete_user(office_id, email, login)">Delete</button>
+	  <button class="btn" type="submit" ng-click="go_back()" style="width:20%; margin-left: 5%;" name="go_back">Cancelar</button>
+  </form>   
+</div>]]></template>
+    </sp_widget>
+</record_update>

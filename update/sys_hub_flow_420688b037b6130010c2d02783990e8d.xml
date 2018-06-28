@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <description>Este item de catálogo destina-se a "Deletar Usuário " para os sistemas da Flytour</description>
+        <label_cache>null</label_cache>
+        <latest_snapshot/>
+        <name>Deletar Usuário - Flytour</name>
+        <remote_trigger_id/>
+        <show_draft_actions>false</show_draft_actions>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-16 23:39:27</sys_created_on>
+        <sys_id>420688b037b6130010c2d02783990e8d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Deletar Usuário - Flytour</sys_name>
+        <sys_package display_value="FlyTour Cadastro de usuario" source="x_177883_flytour_c">cb39a92a379e930010c2d02783990e31</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FlyTour Cadastro de usuario">cb39a92a379e930010c2d02783990e31</sys_scope>
+        <sys_update_name>sys_hub_flow_420688b037b6130010c2d02783990e8d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-16 23:39:27</sys_updated_on>
+    </sys_hub_flow>
+</record_update>

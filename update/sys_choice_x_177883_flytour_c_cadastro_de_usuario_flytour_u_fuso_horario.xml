@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_fuso_horario" table="x_177883_flytour_c_cadastro_de_usuario_flytour" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_fuso_horario</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>javascript:"System (" + gs.getSysTimeZone() + ")"</label>
+            <language>en</language>
+            <name>x_177883_flytour_c_cadastro_de_usuario_flytour</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-29 14:33:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b98c15763752130010c2d02783990e18</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-29 14:33:56</sys_updated_on>
+            <value>NULL_OVERRIDE</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_fuso_horario</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Canada/Atlantic</label>
+            <language>en</language>
+            <name>x_177883_flytour_c_cadastro_de_usuario_flytour</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-29 14:18:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0f099db23752130010c2d02783990ed3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-29 14:18:37</sys_updated_on>
+            <value>canada/atlantic</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_fuso_horario</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Canada/Central</label>
+            <language>en</language>
+            <name>x_177883_flytour_c_cadastro_de_usuario_flytour</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-29 14:18:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8b099db23752130010c2d02783990ed5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-29 14:18:37</sys_updated_on>
+            <value>canada/central</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_fuso_horario</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Canada/Eastern</label>
+            <language>en</language>
+            <name>x_177883_flytour_c_cadastro_de_usuario_flytour</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-29 14:18:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>47099db23752130010c2d02783990ed7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-29 14:18:37</sys_updated_on>
+            <value>canada/eastern</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_fuso_horario</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Canada/Mountain</label>
+            <language>en</language>
+            <name>x_177883_flytour_c_cadastro_de_usuario_flytour</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-29 14:18:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>03099db23752130010c2d02783990ed9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-29 14:18:37</sys_updated_on>
+            <value>canada/mountain</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_fuso_horario</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Canada/Pacific</label>
+            <language>en</language>
+            <name>x_177883_flytour_c_cadastro_de_usuario_flytour</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-29 14:18:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>db099db23752130010c2d02783990eda</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-29 14:18:37</sys_updated_on>
+            <value>canada/pacific</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_fuso_horario</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Europe/Amsterdam</label>
+            <language>en</language>
+            <name>x_177883_flytour_c_cadastro_de_usuario_flytour</name>
+            <sequence>5</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-29 14:18:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>97099db23752130010c2d02783990edc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-29 14:18:37</sys_updated_on>
+            <value>europe/amsterdam</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_fuso_horario</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Europe/Berlin</label>
+            <language>en</language>
+            <name>x_177883_flytour_c_cadastro_de_usuario_flytour</name>
+            <sequence>6</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-29 14:18:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>53099db23752130010c2d02783990ede</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-29 14:18:37</sys_updated_on>
+            <value>europe/berlin</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_fuso_horario</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Europe/Brussels</label>
+            <language>en</language>
+            <name>x_177883_flytour_c_cadastro_de_usuario_flytour</name>
+            <sequence>7</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-29 14:18:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1f099db23752130010c2d02783990edf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-29 14:18:37</sys_updated_on>
+            <value>europe/brussels</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_fuso_horario</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Europe/Copenhagen</label>
+            <language>en</language>
+            <name>x_177883_flytour_c_cadastro_de_usuario_flytour</name>
+            <sequence>8</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-29 14:18:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d7099db23752130010c2d02783990ee1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-29 14:18:37</sys_updated_on>
+            <value>europe/copenhagen</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_fuso_horario</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Europe/Dublin</label>
+            <language>en</language>
+            <name>x_177883_flytour_c_cadastro_de_usuario_flytour</name>
+            <sequence>9</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-29 14:18:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>93099db23752130010c2d02783990ee3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-29 14:18:37</sys_updated_on>
+            <value>europe/dublin</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_fuso_horario</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Europe/London</label>
+            <language>en</language>
+            <name>x_177883_flytour_c_cadastro_de_usuario_flytour</name>
+            <sequence>10</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-29 14:18:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5f099db23752130010c2d02783990ee4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-29 14:18:37</sys_updated_on>
+            <value>europe/london</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_fuso_horario</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Europe/Madrid</label>
+            <language>en</language>
+            <name>x_177883_flytour_c_cadastro_de_usuario_flytour</name>
+            <sequence>11</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-29 14:18:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1b099db23752130010c2d02783990ee6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-29 14:18:37</sys_updated_on>
+            <value>europe/madrid</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_fuso_horario</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Europe/Paris</label>
+            <language>en</language>
+            <name>x_177883_flytour_c_cadastro_de_usuario_flytour</name>
+            <sequence>12</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-29 14:18:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d3099db23752130010c2d02783990ee8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-29 14:18:37</sys_updated_on>
+            <value>europe/paris</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_fuso_horario</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Europe/Rome</label>
+            <language>en</language>
+            <name>x_177883_flytour_c_cadastro_de_usuario_flytour</name>
+            <sequence>13</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-29 14:18:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9f099db23752130010c2d02783990ee9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-29 14:18:37</sys_updated_on>
+            <value>europe/rome</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_fuso_horario</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Europe/Stockholm</label>
+            <language>en</language>
+            <name>x_177883_flytour_c_cadastro_de_usuario_flytour</name>
+            <sequence>14</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-29 14:18:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5b099db23752130010c2d02783990eeb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-29 14:18:37</sys_updated_on>
+            <value>europe/stockholm</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_fuso_horario</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Europe/Zurich</label>
+            <language>en</language>
+            <name>x_177883_flytour_c_cadastro_de_usuario_flytour</name>
+            <sequence>15</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-29 14:18:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>17099db23752130010c2d02783990eed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-29 14:18:37</sys_updated_on>
+            <value>europe/zurich</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_fuso_horario</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>GMT</label>
+            <language>en</language>
+            <name>x_177883_flytour_c_cadastro_de_usuario_flytour</name>
+            <sequence>16</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-29 14:18:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>df099db23752130010c2d02783990eee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-29 14:18:37</sys_updated_on>
+            <value>gmt</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_fuso_horario</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Hongkong</label>
+            <language>en</language>
+            <name>x_177883_flytour_c_cadastro_de_usuario_flytour</name>
+            <sequence>17</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-29 14:18:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9b099db23752130010c2d02783990ef0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-29 14:18:37</sys_updated_on>
+            <value>hongkong</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_fuso_horario</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>US/Arizona</label>
+            <language>en</language>
+            <name>x_177883_flytour_c_cadastro_de_usuario_flytour</name>
+            <sequence>18</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-29 14:18:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>57099db23752130010c2d02783990ef2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-29 14:18:37</sys_updated_on>
+            <value>us/arizona</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_fuso_horario</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>US/Central</label>
+            <language>en</language>
+            <name>x_177883_flytour_c_cadastro_de_usuario_flytour</name>
+            <sequence>19</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-29 14:18:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>13099db23752130010c2d02783990ef4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-29 14:18:37</sys_updated_on>
+            <value>us/central</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_fuso_horario</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>US/Eastern</label>
+            <language>en</language>
+            <name>x_177883_flytour_c_cadastro_de_usuario_flytour</name>
+            <sequence>20</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-29 14:18:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>db099db23752130010c2d02783990ef5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-29 14:18:37</sys_updated_on>
+            <value>us/eastern</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_fuso_horario</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>US/Hawaii</label>
+            <language>en</language>
+            <name>x_177883_flytour_c_cadastro_de_usuario_flytour</name>
+            <sequence>21</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-29 14:18:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>97099db23752130010c2d02783990ef7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-29 14:18:37</sys_updated_on>
+            <value>us/hawaii</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_fuso_horario</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>US/Mountain</label>
+            <language>en</language>
+            <name>x_177883_flytour_c_cadastro_de_usuario_flytour</name>
+            <sequence>22</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-29 14:18:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>53099db23752130010c2d02783990ef9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-29 14:18:37</sys_updated_on>
+            <value>us/mountain</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_fuso_horario</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>US/Pacific</label>
+            <language>en</language>
+            <name>x_177883_flytour_c_cadastro_de_usuario_flytour</name>
+            <sequence>23</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-29 14:18:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1f099db23752130010c2d02783990efa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-29 14:18:37</sys_updated_on>
+            <value>us/pacific</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_fuso_horario</element>
+            <name>x_177883_flytour_c_cadastro_de_usuario_flytour</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-29 14:18:37</sys_created_on>
+            <sys_id>47099db23752130010c2d02783990ed5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_fuso_horario</sys_name>
+            <sys_package display_value="FlyTour Cadastro de usuario" source="x_177883_flytour_c">cb39a92a379e930010c2d02783990e31</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="FlyTour Cadastro de usuario">cb39a92a379e930010c2d02783990e31</sys_scope>
+            <sys_update_name>sys_choice_x_177883_flytour_c_cadastro_de_usuario_flytour_u_fuso_horario</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-29 14:18:37</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

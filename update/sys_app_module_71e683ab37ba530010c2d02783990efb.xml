@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Cadastro de Usuario FlyTour">698a25aa379e930010c2d02783990ed2</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter/>
+        <hint>Desenvolver as tarefas de cadastro e delete de usuário FlyTour</hint>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Tarefas</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>sc_task</name>
+        <order>300</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>Tarefa_função_FlyTour</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>fernando.ruffino@scanbrazilconsulting.co</sys_created_by>
+        <sys_created_on>2018-06-26 02:48:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>71e683ab37ba530010c2d02783990efb</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Tarefas</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="FlyTour Cadastro de usuario" source="x_177883_flytour_c">cb39a92a379e930010c2d02783990e31</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FlyTour Cadastro de usuario">cb39a92a379e930010c2d02783990e31</sys_scope>
+        <sys_update_name>sys_app_module_71e683ab37ba530010c2d02783990efb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-26 03:26:30</sys_updated_on>
+        <timeline_page/>
+        <title>Tarefas</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

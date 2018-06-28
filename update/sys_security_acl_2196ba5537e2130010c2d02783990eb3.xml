@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Allow read for records in x_177883_flytour_c_cadastro_de_usuario_flytour, for users with role x_177883_flytour_c.cadastro_de_usuario_flytour_user.</description>
+        <name>x_177883_flytour_c_cadastro_de_usuario_flytour</name>
+        <operation display_value="read">read</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-06 15:39:05</sys_created_on>
+        <sys_id>2196ba5537e2130010c2d02783990eb3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_177883_flytour_c_cadastro_de_usuario_flytour</sys_name>
+        <sys_package display_value="FlyTour Cadastro de usuario" source="x_177883_flytour_c">cb39a92a379e930010c2d02783990e31</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FlyTour Cadastro de usuario">cb39a92a379e930010c2d02783990e31</sys_scope>
+        <sys_update_name>sys_security_acl_2196ba5537e2130010c2d02783990eb3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-06 15:56:37</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>

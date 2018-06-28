@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update node_type="sys_portal_page" unload_date="2018-06-28 20:54:05">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout/>
+        <order/>
+        <read_roles>snc_internal</read_roles>
+        <roles/>
+        <selectable>false</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>fabio.crismanis</sys_created_by>
+        <sys_created_on>2018-06-07 21:13:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>225e4571372a130010c2d02783990eeb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PA Incident Resolved</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="FlyTour Cadastro de usuario" source="x_177883_flytour_c">cb39a92a379e930010c2d02783990e31</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FlyTour Cadastro de usuario">cb39a92a379e930010c2d02783990e31</sys_scope>
+        <sys_update_name>sys_portal_page_225e4571372a130010c2d02783990eeb</sys_update_name>
+        <sys_updated_by>fabio.crismanis</sys_updated_by>
+        <sys_updated_on>2018-06-07 21:13:39</sys_updated_on>
+        <title>PA Incident Resolved</title>
+        <user/>
+        <view>pa_incident_resolved_1</view>
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone2</dropzone>
+                <offset>1</offset>
+                <page display_value="PA Incident Resolved">225e4571372a130010c2d02783990eeb</page>
+                <summary/>
+                <sys_created_by>fabio.crismanis</sys_created_by>
+                <sys_created_on>2018-06-07 21:13:40</sys_created_on>
+                <sys_id>2a5e4571372a130010c2d02783990efc</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>fabio.crismanis</sys_updated_by>
+                <sys_updated_on>2018-06-07 21:13:40</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 07/06/2018 18:13:40">2a5e4571372a130010c2d02783990efc</portal_section>
+                        <sys_created_by>fabio.crismanis</sys_created_by>
+                        <sys_created_on>2018-06-07 21:13:40</sys_created_on>
+                        <sys_id>225e4571372a130010c2d02783990efd</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>fabio.crismanis</sys_updated_by>
+                        <sys_updated_on>2018-06-07 21:13:40</sys_updated_on>
+                        <value>fbd46e52d7031100b96d45a3ce610343</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 07/06/2018 18:13:40">2a5e4571372a130010c2d02783990efc</portal_section>
+                        <sys_created_by>fabio.crismanis</sys_created_by>
+                        <sys_created_on>2018-06-07 21:13:40</sys_created_on>
+                        <sys_id>265e8571372a130010c2d02783990e00</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>fabio.crismanis</sys_updated_by>
+                        <sys_updated_on>2018-06-07 21:13:40</sys_updated_on>
+                        <value>95cbb031d7201100b96d45a3ce61036d</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 07/06/2018 18:13:40">2a5e4571372a130010c2d02783990efc</portal_section>
+                        <sys_created_by>fabio.crismanis</sys_created_by>
+                        <sys_created_on>2018-06-07 21:13:40</sys_created_on>
+                        <sys_id>625e8571372a130010c2d02783990e00</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>fabio.crismanis</sys_updated_by>
+                        <sys_updated_on>2018-06-07 21:13:40</sys_updated_on>
+                        <value>pa_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 07/06/2018 18:13:40">2a5e4571372a130010c2d02783990efc</portal_section>
+                        <sys_created_by>fabio.crismanis</sys_created_by>
+                        <sys_created_on>2018-06-07 21:13:40</sys_created_on>
+                        <sys_id>6e5e4571372a130010c2d02783990efc</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>fabio.crismanis</sys_updated_by>
+                        <sys_updated_on>2018-06-07 21:13:40</sys_updated_on>
+                        <value>com.snc.pa.ui.RenderPerformanceAnalytics</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>type</name>
+                        <portal_section display_value="Created 07/06/2018 18:13:40">2a5e4571372a130010c2d02783990efc</portal_section>
+                        <sys_created_by>fabio.crismanis</sys_created_by>
+                        <sys_created_on>2018-06-07 21:13:40</sys_created_on>
+                        <sys_id>aa5e8571372a130010c2d02783990e00</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>fabio.crismanis</sys_updated_by>
+                        <sys_updated_on>2018-06-07 21:13:40</sys_updated_on>
+                        <value>score</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 07/06/2018 18:13:40">2a5e4571372a130010c2d02783990efc</portal_section>
+                        <sys_created_by>fabio.crismanis</sys_created_by>
+                        <sys_created_on>2018-06-07 21:13:40</sys_created_on>
+                        <sys_id>e65e8571372a130010c2d02783990e00</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>fabio.crismanis</sys_updated_by>
+                        <sys_updated_on>2018-06-07 21:13:40</sys_updated_on>
+                        <value>Average resolution time by Priority</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone1</dropzone>
+                <offset>0</offset>
+                <page display_value="PA Incident Resolved">225e4571372a130010c2d02783990eeb</page>
+                <summary>Resolved incidents</summary>
+                <sys_created_by>fabio.crismanis</sys_created_by>
+                <sys_created_on>2018-06-07 21:13:40</sys_created_on>
+                <sys_id>625e8571372a130010c2d02783990e05</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>fabio.crismanis</sys_updated_by>
+                <sys_updated_on>2018-06-07 21:13:40</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 07/06/2018 18:13:40">625e8571372a130010c2d02783990e05</portal_section>
+                        <sys_created_by>fabio.crismanis</sys_created_by>
+                        <sys_created_on>2018-06-07 21:13:40</sys_created_on>
+                        <sys_id>2e5e8571372a130010c2d02783990e05</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>fabio.crismanis</sys_updated_by>
+                        <sys_updated_on>2018-06-07 21:13:40</sys_updated_on>
+                        <value>9c056e52d7031100b96d45a3ce610396</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 07/06/2018 18:13:40">625e8571372a130010c2d02783990e05</portal_section>
+                        <sys_created_by>fabio.crismanis</sys_created_by>
+                        <sys_created_on>2018-06-07 21:13:40</sys_created_on>
+                        <sys_id>2e5e8571372a130010c2d02783990e08</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>fabio.crismanis</sys_updated_by>
+                        <sys_updated_on>2018-06-07 21:13:40</sys_updated_on>
+                        <value>95cbb031d7201100b96d45a3ce61036d</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 07/06/2018 18:13:40">625e8571372a130010c2d02783990e05</portal_section>
+                        <sys_created_by>fabio.crismanis</sys_created_by>
+                        <sys_created_on>2018-06-07 21:13:40</sys_created_on>
+                        <sys_id>6a5e8571372a130010c2d02783990e05</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>fabio.crismanis</sys_updated_by>
+                        <sys_updated_on>2018-06-07 21:13:40</sys_updated_on>
+                        <value>com.snc.pa.ui.RenderPerformanceAnalytics</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>type</name>
+                        <portal_section display_value="Created 07/06/2018 18:13:40">625e8571372a130010c2d02783990e05</portal_section>
+                        <sys_created_by>fabio.crismanis</sys_created_by>
+                        <sys_created_on>2018-06-07 21:13:40</sys_created_on>
+                        <sys_id>a25e8571372a130010c2d02783990e09</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>fabio.crismanis</sys_updated_by>
+                        <sys_updated_on>2018-06-07 21:13:40</sys_updated_on>
+                        <value>score</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 07/06/2018 18:13:40">625e8571372a130010c2d02783990e05</portal_section>
+                        <sys_created_by>fabio.crismanis</sys_created_by>
+                        <sys_created_on>2018-06-07 21:13:40</sys_created_on>
+                        <sys_id>a65e8571372a130010c2d02783990e05</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>fabio.crismanis</sys_updated_by>
+                        <sys_updated_on>2018-06-07 21:13:40</sys_updated_on>
+                        <value>pa_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 07/06/2018 18:13:40">625e8571372a130010c2d02783990e05</portal_section>
+                        <sys_created_by>fabio.crismanis</sys_created_by>
+                        <sys_created_on>2018-06-07 21:13:40</sys_created_on>
+                        <sys_id>ee5e8571372a130010c2d02783990e08</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>fabio.crismanis</sys_updated_by>
+                        <sys_updated_on>2018-06-07 21:13:40</sys_updated_on>
+                        <value>Resolved incidents</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone2</dropzone>
+                <offset>0</offset>
+                <page display_value="PA Incident Resolved">225e4571372a130010c2d02783990eeb</page>
+                <summary/>
+                <sys_created_by>fabio.crismanis</sys_created_by>
+                <sys_created_on>2018-06-07 21:13:40</sys_created_on>
+                <sys_id>6e5e8571372a130010c2d02783990e00</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>fabio.crismanis</sys_updated_by>
+                <sys_updated_on>2018-06-07 21:13:40</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>type</name>
+                        <portal_section display_value="Created 07/06/2018 18:13:40">6e5e8571372a130010c2d02783990e00</portal_section>
+                        <sys_created_by>fabio.crismanis</sys_created_by>
+                        <sys_created_on>2018-06-07 21:13:40</sys_created_on>
+                        <sys_id>2a5e8571372a130010c2d02783990e04</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>fabio.crismanis</sys_updated_by>
+                        <sys_updated_on>2018-06-07 21:13:40</sys_updated_on>
+                        <value>score</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 07/06/2018 18:13:40">6e5e8571372a130010c2d02783990e00</portal_section>
+                        <sys_created_by>fabio.crismanis</sys_created_by>
+                        <sys_created_on>2018-06-07 21:13:40</sys_created_on>
+                        <sys_id>665e8571372a130010c2d02783990e04</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>fabio.crismanis</sys_updated_by>
+                        <sys_updated_on>2018-06-07 21:13:40</sys_updated_on>
+                        <value>com.snc.pa.ui.RenderPerformanceAnalytics</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 07/06/2018 18:13:40">6e5e8571372a130010c2d02783990e00</portal_section>
+                        <sys_created_by>fabio.crismanis</sys_created_by>
+                        <sys_created_on>2018-06-07 21:13:40</sys_created_on>
+                        <sys_id>a25e8571372a130010c2d02783990e01</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>fabio.crismanis</sys_updated_by>
+                        <sys_updated_on>2018-06-07 21:13:40</sys_updated_on>
+                        <value>5eb2ab61d7231100b96d45a3ce610323</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 07/06/2018 18:13:40">6e5e8571372a130010c2d02783990e00</portal_section>
+                        <sys_created_by>fabio.crismanis</sys_created_by>
+                        <sys_created_on>2018-06-07 21:13:40</sys_created_on>
+                        <sys_id>a25e8571372a130010c2d02783990e04</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>fabio.crismanis</sys_updated_by>
+                        <sys_updated_on>2018-06-07 21:13:40</sys_updated_on>
+                        <value>pa_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 07/06/2018 18:13:40">6e5e8571372a130010c2d02783990e00</portal_section>
+                        <sys_created_by>fabio.crismanis</sys_created_by>
+                        <sys_created_on>2018-06-07 21:13:40</sys_created_on>
+                        <sys_id>ae5e8571372a130010c2d02783990e04</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>fabio.crismanis</sys_updated_by>
+                        <sys_updated_on>2018-06-07 21:13:40</sys_updated_on>
+                        <value>Average resolution time</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 07/06/2018 18:13:40">6e5e8571372a130010c2d02783990e00</portal_section>
+                        <sys_created_by>fabio.crismanis</sys_created_by>
+                        <sys_created_on>2018-06-07 21:13:40</sys_created_on>
+                        <sys_id>ea5e8571372a130010c2d02783990e04</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>fabio.crismanis</sys_updated_by>
+                        <sys_updated_on>2018-06-07 21:13:40</sys_updated_on>
+                        <value>95cbb031d7201100b96d45a3ce61036d</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone1</dropzone>
+                <offset>1</offset>
+                <page display_value="PA Incident Resolved">225e4571372a130010c2d02783990eeb</page>
+                <summary>Resolved incidents by Priority</summary>
+                <sys_created_by>fabio.crismanis</sys_created_by>
+                <sys_created_on>2018-06-07 21:13:39</sys_created_on>
+                <sys_id>a25e4571372a130010c2d02783990ef8</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>fabio.crismanis</sys_updated_by>
+                <sys_updated_on>2018-06-07 21:13:39</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 07/06/2018 18:13:39">a25e4571372a130010c2d02783990ef8</portal_section>
+                        <sys_created_by>fabio.crismanis</sys_created_by>
+                        <sys_created_on>2018-06-07 21:13:39</sys_created_on>
+                        <sys_id>2a5e4571372a130010c2d02783990ef8</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>fabio.crismanis</sys_updated_by>
+                        <sys_updated_on>2018-06-07 21:13:39</sys_updated_on>
+                        <value>5613eb61d7231100b96d45a3ce610304</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 07/06/2018 18:13:39">a25e4571372a130010c2d02783990ef8</portal_section>
+                        <sys_created_by>fabio.crismanis</sys_created_by>
+                        <sys_created_on>2018-06-07 21:13:40</sys_created_on>
+                        <sys_id>2e5e4571372a130010c2d02783990efb</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>fabio.crismanis</sys_updated_by>
+                        <sys_updated_on>2018-06-07 21:13:40</sys_updated_on>
+                        <value>Resolved incidents by Priority</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 07/06/2018 18:13:39">a25e4571372a130010c2d02783990ef8</portal_section>
+                        <sys_created_by>fabio.crismanis</sys_created_by>
+                        <sys_created_on>2018-06-07 21:13:40</sys_created_on>
+                        <sys_id>665e4571372a130010c2d02783990efc</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>fabio.crismanis</sys_updated_by>
+                        <sys_updated_on>2018-06-07 21:13:40</sys_updated_on>
+                        <value>95cbb031d7201100b96d45a3ce61036d</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 07/06/2018 18:13:39">a25e4571372a130010c2d02783990ef8</portal_section>
+                        <sys_created_by>fabio.crismanis</sys_created_by>
+                        <sys_created_on>2018-06-07 21:13:40</sys_created_on>
+                        <sys_id>6a5e4571372a130010c2d02783990efb</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>fabio.crismanis</sys_updated_by>
+                        <sys_updated_on>2018-06-07 21:13:40</sys_updated_on>
+                        <value>com.snc.pa.ui.RenderPerformanceAnalytics</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>type</name>
+                        <portal_section display_value="Created 07/06/2018 18:13:39">a25e4571372a130010c2d02783990ef8</portal_section>
+                        <sys_created_by>fabio.crismanis</sys_created_by>
+                        <sys_created_on>2018-06-07 21:13:40</sys_created_on>
+                        <sys_id>a25e4571372a130010c2d02783990efc</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>fabio.crismanis</sys_updated_by>
+                        <sys_updated_on>2018-06-07 21:13:40</sys_updated_on>
+                        <value>breakdown</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 07/06/2018 18:13:39">a25e4571372a130010c2d02783990ef8</portal_section>
+                        <sys_created_by>fabio.crismanis</sys_created_by>
+                        <sys_created_on>2018-06-07 21:13:40</sys_created_on>
+                        <sys_id>ee5e4571372a130010c2d02783990efb</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>fabio.crismanis</sys_updated_by>
+                        <sys_updated_on>2018-06-07 21:13:40</sys_updated_on>
+                        <value>pa_widget_description</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
+    </sys_portal_page>
+</record_update>

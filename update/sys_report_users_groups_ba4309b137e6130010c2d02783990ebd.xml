@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="INSERT_OR_UPDATE">
+        <group_id/>
+        <report_id display_value="Novos Usuário - Flytour">364309b137e6130010c2d02783990ebd</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>fabio.crismanis</sys_created_by>
+        <sys_created_on>2018-06-07 20:25:20</sys_created_on>
+        <sys_id>ba4309b137e6130010c2d02783990ebd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>364309b137e6130010c2d02783990ebd</sys_name>
+        <sys_package display_value="FlyTour Cadastro de usuario" source="x_177883_flytour_c">cb39a92a379e930010c2d02783990e31</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FlyTour Cadastro de usuario">cb39a92a379e930010c2d02783990e31</sys_scope>
+        <sys_update_name>sys_report_users_groups_ba4309b137e6130010c2d02783990ebd</sys_update_name>
+        <sys_updated_by>fabio.crismanis</sys_updated_by>
+        <sys_updated_on>2018-06-07 20:25:20</sys_updated_on>
+        <user_id display_value="Fabio Crismanis(OT Ordering)">c27f4f8f3716130010c2d02783990e32</user_id>
+    </sys_report_users_groups>
+</record_update>

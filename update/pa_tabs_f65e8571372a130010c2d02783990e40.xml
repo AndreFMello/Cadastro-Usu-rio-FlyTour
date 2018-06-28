@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="pa_tabs">
+    <pa_tabs action="INSERT_OR_UPDATE">
+        <canvas_page/>
+        <name>Incident Open</name>
+        <page display_value="PA Incident Open">a65e8571372a130010c2d02783990e0c</page>
+        <sys_class_name>pa_tabs</sys_class_name>
+        <sys_created_by>fabio.crismanis</sys_created_by>
+        <sys_created_on>2018-06-07 21:13:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f65e8571372a130010c2d02783990e40</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Incident Open</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="FlyTour Cadastro de usuario" source="x_177883_flytour_c">cb39a92a379e930010c2d02783990e31</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FlyTour Cadastro de usuario">cb39a92a379e930010c2d02783990e31</sys_scope>
+        <sys_update_name>pa_tabs_f65e8571372a130010c2d02783990e40</sys_update_name>
+        <sys_updated_by>fabio.crismanis</sys_updated_by>
+        <sys_updated_on>2018-06-07 21:13:40</sys_updated_on>
+    </pa_tabs>
+</record_update>

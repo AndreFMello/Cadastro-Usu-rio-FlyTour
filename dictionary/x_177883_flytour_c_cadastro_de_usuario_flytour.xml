@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="Cadastro de Usuario FlyTour" max_length="40" name="x_177883_flytour_c_cadastro_de_usuario_flytour" sizeclass="1" type="collection">
+        <element label="Celular" max_length="40" name="celular" type="phone_number_e164"/>
+        <element label="Data" max_length="40" name="data" type="glide_date"/>
+        <element attributes="pdf_cell_type=image" label="Foto" max_length="40" name="foto" type="user_image"/>
+        <element label="Senha" max_length="40" name="senha" type="password"/>
+        <element label="Telefone comercial" max_length="40" name="telefone_comercial" type="phone_number_e164"/>
+        <element label="Time zone" max_length="40" name="time_zone" type="glide_time"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Assinatura administrativa" mandatory="true" max_length="40" name="u_assinatura_admin" type="string">
+            <choice>
+                <element label="Sim" sequence="0" value="sim"/>
+                <element label="Não" sequence="1" value="não"/>
+            </choice>
+        </element>
+        <element choice="1" label="Assinatura administrativa" max_length="40" name="u_ass_admin" type="boolean">
+            <choice>
+                <element label="Sim" sequence="0" value="sim"/>
+                <element label="Não" sequence="1" value="não"/>
+            </choice>
+        </element>
+        <element label="Possui permissão para emissão" max_length="40" name="u_boolean_2" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Requisitado" label="Cadastro usuário FlyTour" mandatory="true" max_length="40" name="u_cad_user_fly" type="string">
+            <choice>
+                <element label="Requisitado" sequence="0" value="requisitado"/>
+                <element label="Completo" sequence="1" value="completo"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Canal" mandatory="true" max_length="40" name="u_campo" type="string">
+            <choice>
+                <element label="FBT" sequence="0" value="fbt"/>
+                <element label="FTG" sequence="1" value="ftg"/>
+                <element label="FTV" sequence="2" value="ftv"/>
+                <element label="MMT" sequence="3" value="mmt"/>
+                <element label="FTF" sequence="4" value="ftf"/>
+                <element label="FTE" sequence="5" value="fte"/>
+                <element label="Rede" sequence="6" value="rede"/>
+                <element label="Conexxe" sequence="7" value="conexxe"/>
+                <element label="Consolidada" sequence="8" value="consolidada"/>
+                <element label="Suporte" sequence="9" value="suporte"/>
+                <element label="Emergencial" sequence="10" value="emergencial"/>
+                <element label="Academia" sequence="11" value="academia"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="2" label="Cargo" max_length="60" name="u_cargo" type="string">
+            <choice>
+                <element label="Administrative Assistant" sequence="0" value="Administrative Assistant"/>
+                <element label="Chief Executive Officer" sequence="1" value="Chief Executive Officer"/>
+                <element label="Chief Financial Officer" sequence="2" value="Chief Financial Officer"/>
+                <element label="Chief Technology Officer" sequence="3" value="Chief Technology Officer"/>
+                <element label="Director" sequence="4" value="Director"/>
+                <element label="IT Technician" sequence="5" value="IT Technician"/>
+                <element label="Junior Developer" sequence="6" value="Junior Developer"/>
+                <element label="Sales Executive" sequence="7" value="Sales Executive"/>
+                <element label="Senior Developer" sequence="8" value="Senior Developer"/>
+                <element label="Solution Consultant" sequence="9" value="Solution Consultant"/>
+                <element label="System Administrator" sequence="10" value="System Administrator"/>
+                <element label="Vice President" sequence="11" value="Vice President"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="CPF" mandatory="true" max_length="40" name="u_cpf" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Permitir alterar e renomear perfis?(CPM e CPN)" mandatory="true" max_length="40" name="u_cpm_cpn" type="string">
+            <choice>
+                <element label="Sim" sequence="0" value="sim"/>
+                <element label="Não" sequence="1" value="não"/>
+            </choice>
+        </element>
+        <element label="Departamento" max_length="32" name="u_departamento" reference="cmn_department" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Duty code" mandatory="true" max_length="40" name="u_duty_code" type="string">
+            <choice>
+                <element label="AS" sequence="0" value="as"/>
+                <element label="SU" sequence="1" value="su"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Email para Login" mandatory="true" max_length="60" name="u_email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Email" mandatory="true" max_length="40" name="u_email_fly" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="E-mail do requerente" mandatory="true" max_length="40" name="u_email_requerente_fly" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Possui permissão para emissão" mandatory="true" max_length="40" name="u_emissao" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="sim"/>
+                <element label="No" sequence="1" value="não"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="novo" label="Status" max_length="40" name="u_estado_pedido" read_only="true" type="string">
+            <choice>
+                <element label="Novo" sequence="0" value="novo"/>
+                <element label="Aprovado" sequence="1" value="aprovado"/>
+                <element label="Rejeitado" sequence="2" value="rejeitado"/>
+                <element label="Em progresso" sequence="3" value="aguardando"/>
+                <element label="Fechar completo" sequence="4" value="fechar completo"/>
+                <element label="Excluir" sequence="5" value="excluir"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Formato da Data" max_length="40" name="u_fomato_data" type="string">
+            <choice>
+                <element label="javascript:&quot;System (&quot; + gs.getProperty('glide.sys.date_format') + &quot;)&quot;" value="NULL_OVERRIDE"/>
+                <element label="MM-dd-yyyy" sequence="0" value="mm-dd-yyyy"/>
+                <element label="dd/MM/yyyy" sequence="1" value="dd/mm/yyyy"/>
+                <element label="dd-MM-yyyy" sequence="2" value="dd-mm-yyyy"/>
+                <element label="dd.MM.yyyy" sequence="3" value="dd.mm.yyyy"/>
+                <element label="yyyy-MM-dd" sequence="4" value="yyyy-mm-dd"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Fuso horário" max_length="40" name="u_fuso_horario" type="string">
+            <choice>
+                <element label="javascript:&quot;System (&quot; + gs.getSysTimeZone() + &quot;)&quot;" value="NULL_OVERRIDE"/>
+                <element label="Canada/Atlantic" sequence="0" value="canada/atlantic"/>
+                <element label="Canada/Central" sequence="1" value="canada/central"/>
+                <element label="Canada/Eastern" sequence="2" value="canada/eastern"/>
+                <element label="Canada/Mountain" sequence="3" value="canada/mountain"/>
+                <element label="Canada/Pacific" sequence="4" value="canada/pacific"/>
+                <element label="Europe/Amsterdam" sequence="5" value="europe/amsterdam"/>
+                <element label="Europe/Berlin" sequence="6" value="europe/berlin"/>
+                <element label="Europe/Brussels" sequence="7" value="europe/brussels"/>
+                <element label="Europe/Copenhagen" sequence="8" value="europe/copenhagen"/>
+                <element label="Europe/Dublin" sequence="9" value="europe/dublin"/>
+                <element label="Europe/London" sequence="10" value="europe/london"/>
+                <element label="Europe/Madrid" sequence="11" value="europe/madrid"/>
+                <element label="Europe/Paris" sequence="12" value="europe/paris"/>
+                <element label="Europe/Rome" sequence="13" value="europe/rome"/>
+                <element label="Europe/Stockholm" sequence="14" value="europe/stockholm"/>
+                <element label="Europe/Zurich" sequence="15" value="europe/zurich"/>
+                <element label="GMT" sequence="16" value="gmt"/>
+                <element label="Hongkong" sequence="17" value="hongkong"/>
+                <element label="US/Arizona" sequence="18" value="us/arizona"/>
+                <element label="US/Central" sequence="19" value="us/central"/>
+                <element label="US/Eastern" sequence="20" value="us/eastern"/>
+                <element label="US/Hawaii" sequence="21" value="us/hawaii"/>
+                <element label="US/Mountain" sequence="22" value="us/mountain"/>
+                <element label="US/Pacific" sequence="23" value="us/pacific"/>
+            </choice>
+        </element>
+        <element label="Gerente" max_length="32" name="u_gerente" read_only="true" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="english" label="Idioma" max_length="40" name="u_idioma" type="string">
+            <choice>
+                <element label="English" sequence="0" value="english"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Nome de usuário a ser criado" mandatory="true" max_length="40" name="u_login_criado" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Nome" mandatory="true" max_length="40" name="u_nome" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Nome do requerente" mandatory="true" max_length="40" name="u_nome_requerente_fly" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Office ID Principal" mandatory="true" max_length="40" name="u_office_name" type="string"/>
+        <element choice="1" label="Permitir transferência de PNR?" max_length="40" name="u_pnr" type="boolean">
+            <choice>
+                <element label="Sim" sequence="0" value="sim"/>
+                <element label="Não" sequence="1" value="não"/>
+            </choice>
+        </element>
+        <element choice="1" label="Administrador de productivity suite" max_length="40" name="u_productivity_suite" type="boolean">
+            <choice>
+                <element label="Sim" sequence="0" value="sim"/>
+                <element label="Não" sequence="1" value="não"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Administrador de productivity suite" max_length="40" name="u_produ_suite" type="string">
+            <choice>
+                <element label="Sim" sequence="0" value="sim"/>
+                <element label="Não" sequence="1" value="não"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="selecionar" label="Remover criptografia do cartão de crédito" max_length="40" name="u_remov_cli_card" type="string">
+            <choice>
+                <element label="Selecionar" sequence="0" value="selecionar"/>
+                <element label="Sim para perfis" sequence="1" value="não"/>
+                <element label="Sim para PNRs" sequence="3" value="sim para pnrs"/>
+                <element label="Sim para perfis e PNRs" sequence="4" value="sim para perfis e pnrs"/>
+            </choice>
+        </element>
+        <element label="Remover criptografia do cartão de crédito" max_length="40" name="u_remov_cli_cart" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="selecionar" label="Remover criptografia do cartão de crédito" mandatory="true" max_length="40" name="u_rem_crip_card" type="string">
+            <choice>
+                <element label="Selecionar" sequence="0" value="selecionar"/>
+                <element label="Não" sequence="1" value="não"/>
+                <element label="Sim para perfis" sequence="2" value="sim para perfis"/>
+                <element label="Sim para PNRs" sequence="3" value="sim para pnrs"/>
+                <element label="Sim para perfis e PNRs" sequence="4" value="sim para perfis e pnrs"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Assinatura de selling platform" mandatory="true" max_length="40" name="u_selling_platform" type="string">
+            <choice>
+                <element label="Sim" sequence="0" value="sim"/>
+                <element label="Não" sequence="1" value="não"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Senha" mandatory="true" max_length="40" name="u_senha" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Sobrenome" mandatory="true" max_length="40" name="u_sobrenome" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Senha" mandatory="true" max_length="40" name="u_string_1" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Permitir deletar perfis? (CPX)" mandatory="true" max_length="40" name="u_string_4" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="sim"/>
+                <element label="No" sequence="1" value="não"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Tipo de material" max_length="40" name="u_tipo_material_fly" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Permitir transferência de PNR?" mandatory="true" max_length="40" name="u_transfer_pnr" type="string">
+            <choice>
+                <element label="Sim" sequence="0" value="sim"/>
+                <element label="Não" sequence="1" value="não"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Usuário será Administrador de Productivity?" mandatory="true" max_length="40" name="u_user_prod_fly" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="yes"/>
+                <element label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+    </element>
+</database>

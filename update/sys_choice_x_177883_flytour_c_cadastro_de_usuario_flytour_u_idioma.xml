@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_idioma" table="x_177883_flytour_c_cadastro_de_usuario_flytour" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_idioma</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>javascript:'System (' + new I18nUtils().getUserLanguage() + ')'</label>
+            <language>en</language>
+            <name>x_177883_flytour_c_cadastro_de_usuario_flytour</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-29 14:09:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>abb619723752130010c2d02783990ecd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-29 14:09:02</sys_updated_on>
+            <value>NULL_OVERRIDE</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_idioma</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>English</label>
+            <language>en</language>
+            <name>x_177883_flytour_c_cadastro_de_usuario_flytour</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-29 14:07:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>167615723752130010c2d02783990ed0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-29 14:07:22</sys_updated_on>
+            <value>english</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_idioma</element>
+            <name>x_177883_flytour_c_cadastro_de_usuario_flytour</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-29 14:07:22</sys_created_on>
+            <sys_id>5e7615723752130010c2d02783990ed1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_idioma</sys_name>
+            <sys_package display_value="FlyTour Cadastro de usuario" source="x_177883_flytour_c">cb39a92a379e930010c2d02783990e31</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="FlyTour Cadastro de usuario">cb39a92a379e930010c2d02783990e31</sys_scope>
+            <sys_update_name>sys_choice_x_177883_flytour_c_cadastro_de_usuario_flytour_u_idioma</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-29 14:07:22</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

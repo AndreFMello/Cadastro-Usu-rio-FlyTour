@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function($scope) {
+  var c = this;
+	$scope.usuario.office_id = current.sys_created_by;
+	//$scope.usuarioEncontrado = false;
+	
+	$scope.get = function(office_id){
+		$scope.usuarioEncontrado = true;
+		c.data.office_id = office_id;		
+		c.server.update().then(function(){
+			$scope.usuario.nome = c.data.nome;
+		});
+	};
+		
+	$scope.usuario.office_id = "";
+			$scope.usuario.nome = "";
+			$scope.usuario.sobrenome = "";
+			$scope.usuario.email = "";
+			$scope.usuario.senha = "";
+			$scope.usuario.resetar_senha = false;
+			$scope.usuario.bloqueado = false;
+			$scope.usuario.ativo = false;
+			$scope.usuario.possui_permissao_emissao = false;
+			$scope.usuario.permite_alterar_perfis = false;
+			$scope.usuario.permite_deletar_perfis = false;
+			$scope.usuario.adm_productivity_suite = false;
+			$scope.usuario.assinatura_selling_platform = false;
+			$scope.usuario.login = "";
+			$scope.usuario.cpf = "";
+			$scope.usuario.estado = "";
+			$scope.usuario.gerente = "";
+	
+	
+	
+	$scope.update_user = function(usuario){
+		c.data.office_id = usuario.office_id;
+		c.data.nome = usuario.nome;
+		c.data.sobrenome = usuario.sobrenome;
+		c.data.email = usuario.email;
+		c.data.senha = usuario.senha;
+		c.data.resetar_senha = usuario.resetar_senha;
+		c.data.bloqueado = usuario.bloqueado;
+		c.data.ativo = usuario.ativo;
+		c.data.possui_permissao_emissao = usuario.possui_permissao_emissao;
+		c.data.permite_alterar_perfis = usuario.permite_alterar_perfis;
+		c.data.permite_deletar_perfis = usuario.permite_deletar_perfis;
+		c.data.adm_productivity_suite = usuario.adm_productivity_suite;
+		c.data.assinatura_selling_platform = usuario.assinatura_selling_platform;
+		c.data.duty_code = usuario.duty_code;
+		c.data.remover_criptografia_cartao_credito = usuario.remover_criptografia_cartao_credito;
+		c.data.permite_transferencia_pnr = usuario.permite_transferencia_pnr;
+		c.data.assinatura_administrativa = usuario.assinatura_administrativa;
+		c.data.login = usuario.login;
+		c.data.cpf = usuario.cpf;
+		c.data.estado = usuario.estado;
+		c.data.gerente = usuario.gerente;
+
+		c.server.update();
+	}
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>form_update_user_fly</id>
+        <internal>false</internal>
+        <link/>
+        <name>form_update_user_fly</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+	console.log("A");
+	console.log("B");
+	var user = g_form.getReference('user_field');
+	var name = user.u_name;
+  console.log(name);
+	console.log("C");
+	if (input != undefined && input.office_id != null && input.office_id != ""){
+		var incidentGR = new GlideRecord('x_177883_flytour_c_cadastro_de_usuario_flytour');
+		incidentGR.get('u_office_name',input.office_id);
+		console.log(incidentGR.getValue('u_nome'));
+		gs.print(incidentGR.getFirstName());
+		return incidentGR.getValue('u_nome') || '';
+	}
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>Fernando.ruffino</sys_created_by>
+        <sys_created_on>2018-06-06 19:08:07</sys_created_on>
+        <sys_id>79086b993766130010c2d02783990e51</sys_id>
+        <sys_mod_count>31</sys_mod_count>
+        <sys_name>form_update_user_fly</sys_name>
+        <sys_package display_value="FlyTour Cadastro de usuario" source="x_177883_flytour_c">cb39a92a379e930010c2d02783990e31</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FlyTour Cadastro de usuario">cb39a92a379e930010c2d02783990e31</sys_scope>
+        <sys_update_name>sp_widget_79086b993766130010c2d02783990e51</sys_update_name>
+        <sys_updated_by>Fernando.ruffino</sys_updated_by>
+        <sys_updated_on>2018-06-08 18:04:40</sys_updated_on>
+        <template><![CDATA[<div>
+  <div style="margin-top: 5%;">
+  	<input class="form-control" type="text" style="margin-right: 5%; width:45%; float: left" placeholder="Office ID" maxlength="25" ng-model="usuario.office_id">
+		<button class="btn" type="submit" style="margin-left: 5%; width:45%; float: left" name="add_to_chart" ng-click="get(usuario.office_id)">Buscar Usuário</button>  
+  </div>
+	<div style="float: left; width: 100%; margin-top: 5%;"> <!--ng-show="usuarioEncontrado"-->
+    <input class="form-control" type="text" style="margin-right: 5%; width:45%; float: left; margin-bottom: 10px" placeholder="Nome" maxlength="25" ng-model="usuario.nome">
+    <input class="form-control" type="text" style="margin-left: 5%; width:45%; float: left; margin-bottom: 10px" placeholder="Sobrenome" maxlength="25" ng-model="usuario.sobrenome">
+    <input class="form-control" type="text" style="margin-right: 5%; width:45%; float: left; margin-bottom: 10px" placeholder="Login a ser criado" maxlength="25" ng-model="usuario.login">
+    <input class="form-control" type="text" style="margin-left: 5%; width:45%; float: left; margin-bottom: 10px" placeholder="CPF" maxlength="25" ng-model="usuario.cpf">
+    <input class="form-control" type="text" style="margin-right: 5%; width:45%; float: left; margin-bottom: 10px" placeholder="Email" maxlength="100" ng-model="usuario.email">
+    <input class="form-control" type="password" style="margin-left: 5%; width:45%; float: left; margin-bottom: 10px" placeholder="Senha" maxlength="25" ng-model="usuario.senha">
+    <div style="margin-right: 5%; width:45%; float: left; margin-bottom: 10px">
+      Permite alterar perfis? (CPM e CPN) <select style="float: right; width: 50%" ng-model="usuario.permite_alterar_perfis">
+      <option value>-- Nenhum --</option>
+      <option value="sim">SIM</option>
+      <option value="não">NÃO</option>
+     </select>
+    </div>
+    <div style="margin-left: 5%; width:45%; float: left; margin-bottom: 10px">
+      Permite deletar perfis? (CPX) <select style="float: right; width: 50%" ng-model="usuario.permite_deletar_perfis">
+      <option value>-- Nenhum --</option>
+      <option value="sim">SIM</option>
+      <option value="não">NÃO</option>
+     </select>
+    </div>
+      <div style="margin-right: 5%; width:45%; float: left; margin-bottom: 10px">
+      Assinatura do Selling Platform <select style="float: right; width: 50%" ng-model="usuario.assinatura_selling_platform">
+      <option value>-- Nenhum --</option>
+      <option value="sim">SIM</option>
+      <option value="não">NÃO</option>
+     </select>
+    </div>
+    <div style="margin-left: 5%; width:45%; float: left; margin-bottom: 10px">
+      Duty Code <select style="float: right; width: 50%" ng-model="usuario.duty_code">
+      <option value>-- Nenhum --</option>
+      <option value="as">AS</option>
+      <option value="su">SU</option>
+     </select>
+    </div>
+    <div style="margin-right: 5%; width:45%; float: left; margin-bottom: 10px">
+      Ativo <input type="checkbox" style="float: right; width: 50%" ng-model="usuario.ativo"/>
+    </div>
+      <div style="margin-left: 5%; width:45%; float: left; margin-bottom: 10px">
+      Possui permissão para Emissão <input type="checkbox" style="float: right; width: 50%" ng-model="usuario.possui_permissao_emissao"/>
+    </div>
+    <div style="margin-right: 5%; width:45%; float: left; margin-bottom: 10px">
+      Administrador de Productivity Suite <input type="checkbox" style="float: right; width: 50%" ng-model="usuario.adm_productivity_suite"/>
+    </div>
+    <div style="margin-left: 5%; width:45%; float: left; margin-bottom: 10px">
+      Remover criptografia do cartão de crédito <input type="checkbox" style="float: right; width: 50%" ng-model="usuario.remover_criptografia_cartao_credito"/>
+    </div>
+    <div style="margin-right: 5%; width:45%; float: left; margin-bottom: 10px">
+      Permite transferência de PNR <input type="checkbox" style="float: right; width: 50%" ng-model="usuario.permite_transferencia_pnr"/>
+    </div>
+    <div style="margin-left: 5%; width:45%; float: left; margin-bottom: 10px">
+      Assinatura administrativa <input type="checkbox" style="float: right; width: 50%" ng-model="usuario.assinatura_administrativa"/>
+    </div>
+    <input class="form-control" type="text" style="margin-right: 5%; width:45%; float: left; margin-bottom: 10px" placeholder="Gerente" maxlength="25" ng-model="usuario.gerente">
+    <div style="margin-left: 5%; float: left; width:45%; margin-bottom: 10px">
+      Estado <select style="float: right; width: 50%" ng-model="usuario.estado">
+      <option value>-- Nenhum --</option>
+      <option value="not yet requested">Ainda não solicitado</option>
+      <option value="requested">Requerido</option>    
+      <option value="approved">Aprovado</option>
+      <option value="rejected">Rejeitado</option>
+      <option value="cancelled">Cancelado</option>
+      <option value="no longer required">Não é mais necessário</option>
+      <option value="close complete">Fechar completo</option>
+      <option value="awaiting approval">Aguardando aprovação</option>
+     </select>
+    </div>
+    <div style="margin-top: 5%; width: 100%; float: right">
+      <button class="btn" type="submit" style="width: 45%; margin-left: 55%; float: left" name="update" ng-click="update_user(usuario)">Salvar alterações</button>
+    </div>
+  </div>
+</div>]]></template>
+    </sp_widget>
+</record_update>
